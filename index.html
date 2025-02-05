@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chupelmelcadito</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="contenedor">
+            <div class="productos">
+                <h1>Productos</h1>
+                <div id="productos">
+                    <div class="producto" data-nombre="Pijama de Satin negro" data-precio="160">
+                        <img src="./img/producto1.jpg" alt="Producto 1">
+                        <span>Pijama de Satin negro - $160</span>
+                        <button class="agregar">Agregar</button>
+                    </div>
+                    <div class="producto" data-nombre="Mist Corporal Bare Vanilla" data-precio="45">
+                        <img src="./img/producto2.jpg" alt="Producto 2">
+                        <span>Mist Corporal Bare Vanilla - $45</span>
+                        <button class="agregar">Agregar</button>
+                    </div>
+                    <div class="producto" data-nombre="Perfume Bare Rose" data-precio="55">
+                        <img src="./img/producto3.jpg" alt="Producto 3">
+                        <span>Perfume Bare Rose - $55</span>
+                        <button class="agregar">Agregar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carrito-container">
+                <h2>Tu Carrito</h2>
+                <div class="carrito" id="carrito"></div>
+                <h3>Total: $<span id="total">0</span></h3>
+                <button id="vaciar">Vaciar Carrito</button>
+                <button id="comprar">Comprar</button>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+
+</html>
